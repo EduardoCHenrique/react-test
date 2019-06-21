@@ -1,0 +1,13 @@
+:root {
+  /* colors */
+  --border-color: #eee;
+  --primary-text-color: #333;
+  --secondary-text-color: #666;
+  --bg-color: #fafbfc;
+  --link-color: blue;
+  --header-color: #24292e;
+  
+  /* size */
+  --profile-height: 16rem;
+  --header-height: 6.4rem;
+}

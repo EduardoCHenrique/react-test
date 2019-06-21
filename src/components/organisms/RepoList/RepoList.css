@@ -1,0 +1,6 @@
+@import '../../../style/index.css';
+
+.repo-list {
+  height: calc(100vh - var(--profile-height) - var(--header-height));
+  overflow: scroll;
+}

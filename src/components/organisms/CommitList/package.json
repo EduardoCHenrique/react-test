@@ -1,0 +1,5 @@
+{
+  "name": "CommitList",
+  "private": true,
+  "main": "./CommitList.js"
+}

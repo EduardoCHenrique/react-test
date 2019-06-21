@@ -1,0 +1,37 @@
+@import '../../../style/index.css';
+
+.repo {
+  border-bottom: 1px solid var(--border-color);
+  padding: 2rem 0;
+}
+
+.repo__name {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0;
+  color: var(--link-color);
+}
+
+.repo__name:hover {
+  text-decoration: underline;
+}
+
+.repo__description {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+
+.repo__footer {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+
+.repo__footer__item {
+  margin-right: 1rem;
+}
+
+.repo__footer__icon {
+  font-size: 1.3rem;
+}

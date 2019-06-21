@@ -1,0 +1,15 @@
+@import '../../../style/index.css';
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: var(--header-height);
+  background-color: var(--header-color);
+}
+
+.header__logo {
+  width: 4rem;
+  height: 4rem;
+  color: white;
+}

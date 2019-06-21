@@ -1,0 +1,47 @@
+@import '../../../style/index.css';
+
+.profile {
+  display: flex;
+  align-items: center;
+  height: var(--profile-height);
+}
+
+.profile__data {}
+
+.profile__name {
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin: 0 0 2rem;
+}
+
+.profile__avatar {
+  width: 10rem;
+  height: 10rem;
+  margin-right: 1rem;
+}
+
+.profile__bio {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--secondary-text-color);
+  margin: 0 0 1rem 0;
+}
+
+.profile__details {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+
+.profile__detail {
+  margin-right: 2rem;
+}
+
+.profile__detail__icon {
+  margin-right: .4rem;
+}
+
+.profile__detail__link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
